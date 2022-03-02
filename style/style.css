@@ -1,0 +1,137 @@
+.header {
+
+    /* border: 1px solid red; */
+    background-image: url(./trust\ 3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.header.batton {
+    color: red;
+}
+
+.head_contain {
+    text-align: center;
+}
+
+.discription {
+    /* border: 1px solid red; */
+    display: flex;
+    text-align: justify;
+}
+
+.discription .left {
+    /* border: 1px solid red; */
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.discription .right {
+    /* border: 1px solid red; */
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.sector {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(17, 16, 22);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+
+}
+
+/* .department{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+} */
+
+.sector .left {
+    /* border: 1px solid red; */
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px; */
+    background-color: #fff;
+    width: 32%;
+}
+
+.sector .left .margin {
+    margin-bottom: 0px;
+}
+
+.sector .left .paragrap {
+    padding: 20px;
+}
+
+.sector .mid {
+    /* border: 1px solid red; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    background-color: #fff;
+    width: 32%;
+}
+.sector .mid .margin {
+    margin-bottom: 0px;
+}
+.sector .mid .paragrap {
+    padding: 20px;
+}
+.sector .right {
+    /* border: 1px solid red; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    background-color: #fff;
+    width: 32%;
+}
+.sector .right .margin {
+    margin-bottom: 0px;
+}
+.sector .right .paragrap {
+    padding: 20px;
+}
+.sector .left img,
+.sector .mid img,
+.sector .right img {
+    width: 100%;
+}
+.short_discription {
+    text-align: center;
+}
+.Our_aim {
+    /* border: 1px solid red; */
+    display: flex;
+}
+.Our_aim .left {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 105, 206);
+    padding: 20px;
+}
+.Our_aim .right {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: #fff;
+    background-color: #2f3336;
+    padding: 20px;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
